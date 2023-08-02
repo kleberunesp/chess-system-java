@@ -96,7 +96,7 @@ public class King extends ChessPiece {
 			}
 			
 			Position posT2 = new Position(position.getRow(),position.getColumn() - 4);
-			if (textRookCastling(posT1)) {
+			if (textRookCastling(posT2)) {
 				Position p1 = new Position(position.getRow(),position.getColumn() - 1);
 				Position p2 = new Position(position.getRow(),position.getColumn() - 2);
 				Position p3 = new Position(position.getRow(),position.getColumn() - 3);
